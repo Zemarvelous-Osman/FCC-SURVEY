@@ -1,0 +1,127 @@
+#main{
+    display: flex;
+    background-image: url('film2.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 850px;
+    height: 1000px;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: rgb(204, 194, 165);
+    opacity: .97;
+}
+#title {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    letter-spacing: .5rem;
+    padding: 5px;
+}
+#description {
+    text-align: center;
+    background-color: black; 
+    color: aliceblue;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    letter-spacing: .3rem;
+    padding-top: 10px;
+}
+.info {
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 3.5px rgb(155, 106, 34) solid;
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    line-height: 2.5rem;
+}
+#name, #email{
+    width: 150px;
+    height: 20px;
+}
+#number{
+    padding-right: 15px;
+    height: 20px;
+}
+p{
+    margin-bottom: 50px;
+}
+#dropdown{
+    height: 30px;
+    width: 70px;
+    font-size: 17px;
+   
+}
+.dropdown{
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 3.5px rgb(155, 106, 34) solid;
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+.radio {
+    border-bottom: 3.5px rgb(155, 106, 34) solid;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.genre{
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+#checkbox{
+   
+    border-bottom: 3.5px rgb(155, 106, 34) solid;
+    font-size: 25px;
+    height: 200px ;
+    margin-bottom: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+    accent-color: rgb(0, 0, 0);  
+}
+.checkbox1 {
+    
+    margin-bottom: -70px;
+}
+.checkbox2{
+    padding-top: -70px;
+    
+}
+.textarea {
+  margin: auto;
+  margin-top: -0px;
+}
+#text{
+    width: 300px;
+    height: 100px;
+    font-size: 18px;
+}
+#submit{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(155, 106, 34);
+    letter-spacing: .3rem;
+    border: 3px black solid;
+    border-radius: 10px;
+}
